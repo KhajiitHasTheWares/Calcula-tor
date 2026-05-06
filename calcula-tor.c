@@ -29,10 +29,11 @@ res = a / b;
 break;
 default:
 printf("Error! Incorrect value! PLease enter another value.\n");
-res = -DBL_MAX
+res = -DBL_MAX;
   }
-if(res!=-DBL_MAX)
+if(res!=-DBL_MAX) {
   printf("%.2lf", res);
 
 return 0;
+}
 }
